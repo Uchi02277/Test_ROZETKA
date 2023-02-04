@@ -1,0 +1,65 @@
+@media all and (max-width: 768px) {
+    .header__logo { 
+        margin: 90px 0 55px;
+    }    
+    .lot_title { 
+        font-size: 48px;
+        padding: 0 10px;
+    }
+    .character__left p, 
+    .character__right p {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 651px) {
+    .character__line_425 {
+        width: 40%;
+        height: 1px;
+        background-color: #000;
+        margin: 45px 0;    
+    }
+    .character__right {
+        margin: 0;
+    } 
+    .character__left p, 
+    .character__right p {
+        font-size: 24px;
+    }
+}
+@media all and (max-width: 425px) {
+    .header__logo { 
+        margin: 60px 0 55px;
+    }    
+    .lot_title { 
+        font-size: 32px;
+    }
+    .lot2_title { 
+        margin-bottom: 50px;
+    }    
+    .lot3 { 
+        margin: 80px 0;
+    }
+    .character__container {
+        padding: 50px 10px 50px;
+    }
+    .character__title {
+        margin-bottom: 35px;
+    }
+    .character__left p, 
+    .character__right p {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 320px) {
+    .lot_title { 
+        font-size: 26px;
+    }
+    .character__left p, 
+    .character__right p {
+        font-size: 18px;
+    }
+    .character__line, 
+    .character__line_425 {
+        margin: 25px 0;
+    }
+}
